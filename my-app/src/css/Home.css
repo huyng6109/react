@@ -1,0 +1,35 @@
+.main {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 34.37% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+}
+
+.text {
+    display: inline-block;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 70px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.banner {
+    display: flex;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sponsor {
+    display: flex;
+    position: relative;
+    left: 34%;
+    width: 30%;
+}
